@@ -3,7 +3,6 @@ game 'gta5'
 
 name 'ScriptCore-JobCenter'
 author 'ScriptCore.dk'
-description 'Clean dark JobCenter with NPC, ox_target and NUI'
 version '1.0.0'
 
 lua54 'yes'
