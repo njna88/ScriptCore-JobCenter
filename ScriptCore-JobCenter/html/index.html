@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobcenter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    <main id="app" class="hidden">
+        <section class="panel">
+            <header class="topbar">
+                <div>
+                    <h1 id="title">Jobcenter</h1>
+                    <span id="subtitle">Vælg et job</span>
+                </div>
+                <button id="closeBtn" class="close-btn" aria-label="Luk">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </header>
+
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input id="searchInput" type="text" placeholder="Søg job" autocomplete="off" />
+            </div>
+
+            <section id="jobs" class="jobs"></section>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
